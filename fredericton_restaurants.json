@@ -1,0 +1,1527 @@
+[
+    {
+        "id": 50,
+        "name": "Zen Mexican Tavern",
+        "address": "898 Quail Hollow, Fredericton, NB",
+        "latitude": 45.95942,
+        "longitude": -66.61276,
+        "avg_price": 49,
+        "type": "Mexican",
+        "ratings": 4.5,
+        "features": [
+            "free parking",
+            "gluten free options"
+        ],
+        "description": "Known for turning simple meals into delightful experiences with charm and care."
+    },
+    {
+        "id": 68,
+        "name": "River Chinese House",
+        "address": "896 Quail Hollow, Fredericton, NB",
+        "latitude": 45.97704,
+        "longitude": -66.64556,
+        "avg_price": 77,
+        "type": "Chinese",
+        "ratings": 2.4,
+        "features": [
+            "pets allowed",
+            "free parking",
+            "gluten free options",
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 77,
+        "name": "Harvest Japanese House",
+        "address": "677 Valley View Court, Fredericton, NB",
+        "latitude": 45.98713,
+        "longitude": -66.66861,
+        "avg_price": 57,
+        "type": "Japanese",
+        "ratings": 2.2,
+        "features": [
+            "gluten free options",
+            "vegetarian options",
+            "pets allowed",
+            "free parking"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 95,
+        "name": "Zen Chinese Bistro",
+        "address": "779 Sunset Street, Fredericton, NB",
+        "latitude": 45.99528,
+        "longitude": -66.62778,
+        "avg_price": 68,
+        "type": "Chinese",
+        "ratings": 1.7,
+        "features": [
+            "gluten free options",
+            "vegetarian options",
+            "pets allowed",
+            "free parking"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 20,
+        "name": "Urban Indian Bistro",
+        "address": "771 Beaverbrook Avenue, Fredericton, NB",
+        "latitude": 45.98996,
+        "longitude": -66.63232,
+        "avg_price": 86,
+        "type": "Indian",
+        "ratings": 1.1,
+        "features": [
+            "gluten free options",
+            "free parking",
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 96,
+        "name": "Urban Canadian Cafe",
+        "address": "978 Kingfisher Way, Fredericton, NB",
+        "latitude": 45.9861,
+        "longitude": -66.63446,
+        "avg_price": 45,
+        "type": "Canadian",
+        "ratings": 2.6,
+        "features": [
+            "pets allowed",
+            "vegetarian options",
+            "gluten free options"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 6,
+        "name": "Morning Burgers Bistro",
+        "address": "452 Riverside Drive, Fredericton, NB",
+        "latitude": 45.98372,
+        "longitude": -66.62006,
+        "avg_price": 95,
+        "type": "Burgers",
+        "ratings": 4.1,
+        "features": [
+            "gluten free options",
+            "vegetarian options",
+            "free parking"
+        ],
+        "description": "A lively spot where every visit feels like a celebration of flavor and warmth."
+    },
+    {
+        "id": 80,
+        "name": "Harvest Mexican Kitchen",
+        "address": "948 Valley View Court, Fredericton, NB",
+        "latitude": 45.98901,
+        "longitude": -66.60207,
+        "avg_price": 89,
+        "type": "Mexican",
+        "ratings": 1.6,
+        "features": [
+            "free parking",
+            "pets allowed",
+            "gluten free options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 26,
+        "name": "Velvet Canadian Tavern",
+        "address": "673 Willowbrook Avenue, Fredericton, NB",
+        "latitude": 45.98911,
+        "longitude": -66.67473,
+        "avg_price": 99,
+        "type": "Canadian",
+        "ratings": 3.9,
+        "features": [
+            "gluten free options",
+            "free parking",
+            "vegetarian options"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 8,
+        "name": "Spice Mexican Garden",
+        "address": "668 Kingfisher Way, Fredericton, NB",
+        "latitude": 45.95254,
+        "longitude": -66.66867,
+        "avg_price": 36,
+        "type": "Mexican",
+        "ratings": 4.6,
+        "features": [
+            "free parking"
+        ],
+        "description": "Known for turning simple meals into delightful experiences with charm and care."
+    },
+    {
+        "id": 39,
+        "name": "Urban Canadian Table",
+        "address": "393 Sunset Street, Fredericton, NB",
+        "latitude": 45.9628,
+        "longitude": -66.66549,
+        "avg_price": 42,
+        "type": "Canadian",
+        "ratings": 1.7,
+        "features": [
+            "gluten free options",
+            "free parking",
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 83,
+        "name": "The Canadian Lounge",
+        "address": "159 Orchard Boulevard, Fredericton, NB",
+        "latitude": 45.99059,
+        "longitude": -66.6457,
+        "avg_price": 30,
+        "type": "Canadian",
+        "ratings": 2.6,
+        "features": [
+            "vegetarian options",
+            "gluten free options",
+            "free parking"
+        ],
+        "description": "A practical option for those who appreciate simplicity and steady service."
+    },
+    {
+        "id": 10,
+        "name": "Urban Japanese Garden",
+        "address": "54 Riverside Drive, Fredericton, NB",
+        "latitude": 45.98436,
+        "longitude": -66.67109,
+        "avg_price": 66,
+        "type": "Japanese",
+        "ratings": 3.1,
+        "features": [
+            "pets allowed",
+            "vegetarian options",
+            "gluten free options",
+            "free parking"
+        ],
+        "description": "Ideal for casual outings, blending simplicity with a touch of local character."
+    },
+    {
+        "id": 71,
+        "name": "Urban Chinese Grill",
+        "address": "383 Zenith Street, Fredericton, NB",
+        "latitude": 45.99199,
+        "longitude": -66.62195,
+        "avg_price": 59,
+        "type": "Chinese",
+        "ratings": 4.4,
+        "features": [
+            "vegetarian options",
+            "gluten free options",
+            "free parking",
+            "pets allowed"
+        ],
+        "description": "A favorite among locals for its vibrant energy and memorable dining moments."
+    },
+    {
+        "id": 78,
+        "name": "Zen Japanese Table",
+        "address": "586 Willowbrook Avenue, Fredericton, NB",
+        "latitude": 45.98093,
+        "longitude": -66.6005,
+        "avg_price": 37,
+        "type": "Japanese",
+        "ratings": 3.5,
+        "features": [
+            "gluten free options",
+            "pets allowed",
+            "vegetarian options"
+        ],
+        "description": "A modest yet welcoming space where guests enjoy a calm and easygoing vibe."
+    },
+    {
+        "id": 34,
+        "name": "Spice Pizza Kitchen",
+        "address": "953 Sunset Street, Fredericton, NB",
+        "latitude": 45.97192,
+        "longitude": -66.60066,
+        "avg_price": 94,
+        "type": "Pizza",
+        "ratings": 2.1,
+        "features": [
+            "free parking",
+            "gluten free options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 89,
+        "name": "River Pizza Table",
+        "address": "399 Juniper Trail, Fredericton, NB",
+        "latitude": 45.97535,
+        "longitude": -66.62391,
+        "avg_price": 90,
+        "type": "Pizza",
+        "ratings": 1.3,
+        "features": [
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 36,
+        "name": "Spice Pizza Table",
+        "address": "589 Evergreen Terrace, Fredericton, NB",
+        "latitude": 45.95469,
+        "longitude": -66.64117,
+        "avg_price": 84,
+        "type": "Pizza",
+        "ratings": 3.0,
+        "features": [
+            "free parking",
+            "gluten free options"
+        ],
+        "description": "Ideal for casual outings, blending simplicity with a touch of local character."
+    },
+    {
+        "id": 5,
+        "name": "Morning Indian Kitchen",
+        "address": "899 Dewberry Court, Fredericton, NB",
+        "latitude": 45.95573,
+        "longitude": -66.6529,
+        "avg_price": 79,
+        "type": "Indian",
+        "ratings": 2.0,
+        "features": [
+            "pets allowed",
+            "gluten free options",
+            "free parking",
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 19,
+        "name": "Maple Burgers House",
+        "address": "770 Zenith Street, Fredericton, NB",
+        "latitude": 45.98109,
+        "longitude": -66.68,
+        "avg_price": 84,
+        "type": "Burgers",
+        "ratings": 4.8,
+        "features": [
+            "pets allowed"
+        ],
+        "description": "Guests adore the inviting atmosphere and creative dishes that never disappoint."
+    },
+    {
+        "id": 84,
+        "name": "Maple Burgers Cafe",
+        "address": "916 Nighthawk Place, Fredericton, NB",
+        "latitude": 45.99513,
+        "longitude": -66.65568,
+        "avg_price": 87,
+        "type": "Burgers",
+        "ratings": 3.9,
+        "features": [
+            "pets allowed",
+            "free parking",
+            "gluten free options"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 30,
+        "name": "Rustic Chinese House",
+        "address": "469 Yellowstone Drive, Fredericton, NB",
+        "latitude": 45.93353,
+        "longitude": -66.67859,
+        "avg_price": 30,
+        "type": "Chinese",
+        "ratings": 2.2,
+        "features": [
+            "free parking",
+            "gluten free options",
+            "pets allowed"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 65,
+        "name": "River Japanese Garden",
+        "address": "578 Maple Ridge Road, Fredericton, NB",
+        "latitude": 45.9686,
+        "longitude": -66.63734,
+        "avg_price": 97,
+        "type": "Japanese",
+        "ratings": 2.9,
+        "features": [
+            "free parking"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 4,
+        "name": "Harvest Japanese Lounge",
+        "address": "818 Zenith Street, Fredericton, NB",
+        "latitude": 45.95782,
+        "longitude": -66.60792,
+        "avg_price": 61,
+        "type": "Japanese",
+        "ratings": 1.9,
+        "features": [],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 46,
+        "name": "Velvet Burgers Lounge",
+        "address": "323 Laurel Lane, Fredericton, NB",
+        "latitude": 45.96823,
+        "longitude": -66.63316,
+        "avg_price": 50,
+        "type": "Burgers",
+        "ratings": 4.8,
+        "features": [
+            "gluten free options",
+            "vegetarian options"
+        ],
+        "description": "Known for turning simple meals into delightful experiences with charm and care."
+    },
+    {
+        "id": 37,
+        "name": "River Japanese Grill",
+        "address": "582 Upland Road, Fredericton, NB",
+        "latitude": 45.99477,
+        "longitude": -66.63737,
+        "avg_price": 41,
+        "type": "Japanese",
+        "ratings": 3.9,
+        "features": [
+            "gluten free options",
+            "vegetarian options",
+            "pets allowed",
+            "free parking"
+        ],
+        "description": "A dependable choice for relaxed dining, offering comfort and familiarity."
+    },
+    {
+        "id": 85,
+        "name": "Morning Pizza Tavern",
+        "address": "914 Zenith Street, Fredericton, NB",
+        "latitude": 45.99095,
+        "longitude": -66.64124,
+        "avg_price": 83,
+        "type": "Pizza",
+        "ratings": 3.8,
+        "features": [
+            "gluten free options"
+        ],
+        "description": "A dependable choice for relaxed dining, offering comfort and familiarity."
+    },
+    {
+        "id": 88,
+        "name": "Velvet Burgers Garden",
+        "address": "139 Laurel Lane, Fredericton, NB",
+        "latitude": 45.97708,
+        "longitude": -66.62456,
+        "avg_price": 59,
+        "type": "Burgers",
+        "ratings": 4.9,
+        "features": [
+            "gluten free options",
+            "vegetarian options"
+        ],
+        "description": "Perfect for those seeking a cheerful escape with consistently great food."
+    },
+    {
+        "id": 72,
+        "name": "Maple Chinese Table",
+        "address": "188 Upland Road, Fredericton, NB",
+        "latitude": 45.99025,
+        "longitude": -66.61269,
+        "avg_price": 67,
+        "type": "Chinese",
+        "ratings": 1.3,
+        "features": [
+            "gluten free options",
+            "pets allowed",
+            "free parking",
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 45,
+        "name": "Zen Burgers Corner",
+        "address": "887 Valley View Court, Fredericton, NB",
+        "latitude": 45.93891,
+        "longitude": -66.64324,
+        "avg_price": 88,
+        "type": "Burgers",
+        "ratings": 2.3,
+        "features": [
+            "pets allowed",
+            "vegetarian options",
+            "free parking"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 28,
+        "name": "Spice Mexican Cafe",
+        "address": "190 Zenith Street, Fredericton, NB",
+        "latitude": 45.94877,
+        "longitude": -66.63031,
+        "avg_price": 73,
+        "type": "Mexican",
+        "ratings": 3.8,
+        "features": [
+            "free parking",
+            "vegetarian options"
+        ],
+        "description": "A practical option for those who appreciate simplicity and steady service."
+    },
+    {
+        "id": 55,
+        "name": "Maple Indian Lounge",
+        "address": "365 Sunset Street, Fredericton, NB",
+        "latitude": 45.99028,
+        "longitude": -66.66869,
+        "avg_price": 98,
+        "type": "Indian",
+        "ratings": 4.0,
+        "features": [
+            "vegetarian options",
+            "pets allowed",
+            "gluten free options",
+            "free parking"
+        ],
+        "description": "Perfect for those seeking a cheerful escape with consistently great food."
+    },
+    {
+        "id": 43,
+        "name": "Maple Japanese Kitchen",
+        "address": "197 Orchard Boulevard, Fredericton, NB",
+        "latitude": 45.95411,
+        "longitude": -66.61498,
+        "avg_price": 95,
+        "type": "Japanese",
+        "ratings": 2.1,
+        "features": [],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 32,
+        "name": "Rustic Burgers Table",
+        "address": "33 Chase Street, Fredericton, NB",
+        "latitude": 45.99197,
+        "longitude": -66.63576,
+        "avg_price": 34,
+        "type": "Burgers",
+        "ratings": 2.0,
+        "features": [
+            "pets allowed",
+            "gluten free options",
+            "free parking"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 64,
+        "name": "Velvet Pizza Corner",
+        "address": "179 Quail Hollow, Fredericton, NB",
+        "latitude": 45.98001,
+        "longitude": -66.60099,
+        "avg_price": 36,
+        "type": "Pizza",
+        "ratings": 3.3,
+        "features": [
+            "vegetarian options",
+            "gluten free options",
+            "free parking",
+            "pets allowed"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 35,
+        "name": "Velvet Burgers Table",
+        "address": "129 Horizon Avenue, Fredericton, NB",
+        "latitude": 45.99719,
+        "longitude": -66.65776,
+        "avg_price": 41,
+        "type": "Burgers",
+        "ratings": 4.9,
+        "features": [],
+        "description": "Guests adore the inviting atmosphere and creative dishes that never disappoint."
+    },
+    {
+        "id": 27,
+        "name": "Maple Chinese Garden",
+        "address": "696 Pinecone Path, Fredericton, NB",
+        "latitude": 45.9634,
+        "longitude": -66.61997,
+        "avg_price": 39,
+        "type": "Chinese",
+        "ratings": 4.3,
+        "features": [
+            "vegetarian options",
+            "gluten free options",
+            "pets allowed"
+        ],
+        "description": "Perfect for those seeking a cheerful escape with consistently great food."
+    },
+    {
+        "id": 66,
+        "name": "Rustic Canadian Garden",
+        "address": "499 Xander Lane, Fredericton, NB",
+        "latitude": 45.94792,
+        "longitude": -66.66142,
+        "avg_price": 73,
+        "type": "Canadian",
+        "ratings": 4.2,
+        "features": [],
+        "description": "Guests adore the inviting atmosphere and creative dishes that never disappoint."
+    },
+    {
+        "id": 91,
+        "name": "The Chinese Corner",
+        "address": "76 Sunset Street, Fredericton, NB",
+        "latitude": 45.94045,
+        "longitude": -66.66523,
+        "avg_price": 69,
+        "type": "Chinese",
+        "ratings": 4.7,
+        "features": [
+            "vegetarian options",
+            "pets allowed"
+        ],
+        "description": "Guests adore the inviting atmosphere and creative dishes that never disappoint."
+    },
+    {
+        "id": 61,
+        "name": "Coastal Indian Cafe",
+        "address": "865 Chase Street, Fredericton, NB",
+        "latitude": 45.97606,
+        "longitude": -66.6422,
+        "avg_price": 78,
+        "type": "Indian",
+        "ratings": 3.2,
+        "features": [
+            "vegetarian options",
+            "gluten free options",
+            "pets allowed"
+        ],
+        "description": "Ideal for casual outings, blending simplicity with a touch of local character."
+    },
+    {
+        "id": 12,
+        "name": "Harvest Canadian Table",
+        "address": "69 Thistle Circle, Fredericton, NB",
+        "latitude": 45.95712,
+        "longitude": -66.6335,
+        "avg_price": 72,
+        "type": "Canadian",
+        "ratings": 1.5,
+        "features": [
+            "pets allowed",
+            "free parking",
+            "gluten free options",
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 38,
+        "name": "Morning Chinese Cafe",
+        "address": "529 Maple Ridge Road, Fredericton, NB",
+        "latitude": 45.94692,
+        "longitude": -66.65532,
+        "avg_price": 70,
+        "type": "Chinese",
+        "ratings": 2.9,
+        "features": [],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 62,
+        "name": "Morning Chinese Kitchen",
+        "address": "577 Chase Street, Fredericton, NB",
+        "latitude": 45.94655,
+        "longitude": -66.6253,
+        "avg_price": 98,
+        "type": "Chinese",
+        "ratings": 3.1,
+        "features": [
+            "gluten free options",
+            "pets allowed",
+            "vegetarian options",
+            "free parking"
+        ],
+        "description": "A modest yet welcoming space where guests enjoy a calm and easygoing vibe."
+    },
+    {
+        "id": 22,
+        "name": "Zen Burgers Bistro",
+        "address": "814 Quail Hollow, Fredericton, NB",
+        "latitude": 45.93709,
+        "longitude": -66.6236,
+        "avg_price": 46,
+        "type": "Burgers",
+        "ratings": 4.4,
+        "features": [
+            "free parking",
+            "vegetarian options",
+            "gluten free options"
+        ],
+        "description": "A favorite among locals for its vibrant energy and memorable dining moments."
+    },
+    {
+        "id": 51,
+        "name": "Harvest Mexican Tavern",
+        "address": "204 Orchard Boulevard, Fredericton, NB",
+        "latitude": 45.93691,
+        "longitude": -66.63452,
+        "avg_price": 54,
+        "type": "Mexican",
+        "ratings": 4.7,
+        "features": [
+            "vegetarian options"
+        ],
+        "description": "Perfect for those seeking a cheerful escape with consistently great food."
+    },
+    {
+        "id": 16,
+        "name": "The Pizza Table",
+        "address": "134 Evergreen Terrace, Fredericton, NB",
+        "latitude": 45.94497,
+        "longitude": -66.67944,
+        "avg_price": 96,
+        "type": "Pizza",
+        "ratings": 2.4,
+        "features": [
+            "vegetarian options",
+            "free parking",
+            "gluten free options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 1,
+        "name": "Morning Chinese Bistro",
+        "address": "988 Nighthawk Place, Fredericton, NB",
+        "latitude": 45.99156,
+        "longitude": -66.67608,
+        "avg_price": 36,
+        "type": "Chinese",
+        "ratings": 2.5,
+        "features": [
+            "vegetarian options",
+            "gluten free options",
+            "pets allowed"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 40,
+        "name": "Maple Japanese Kitchen",
+        "address": "382 Evergreen Terrace, Fredericton, NB",
+        "latitude": 45.98929,
+        "longitude": -66.61406,
+        "avg_price": 57,
+        "type": "Japanese",
+        "ratings": 1.3,
+        "features": [
+            "free parking",
+            "gluten free options",
+            "pets allowed",
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 42,
+        "name": "Urban Japanese Lounge",
+        "address": "26 Pinecone Path, Fredericton, NB",
+        "latitude": 45.98318,
+        "longitude": -66.65607,
+        "avg_price": 50,
+        "type": "Japanese",
+        "ratings": 1.1,
+        "features": [],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 29,
+        "name": "Coastal Chinese Bistro",
+        "address": "948 Juniper Trail, Fredericton, NB",
+        "latitude": 45.95594,
+        "longitude": -66.63354,
+        "avg_price": 68,
+        "type": "Chinese",
+        "ratings": 2.6,
+        "features": [
+            "free parking",
+            "gluten free options",
+            "vegetarian options",
+            "pets allowed"
+        ],
+        "description": "A practical option for those who appreciate simplicity and steady service."
+    },
+    {
+        "id": 69,
+        "name": "Spice Indian Corner",
+        "address": "156 Dewberry Court, Fredericton, NB",
+        "latitude": 45.98118,
+        "longitude": -66.66712,
+        "avg_price": 34,
+        "type": "Indian",
+        "ratings": 4.6,
+        "features": [
+            "free parking",
+            "gluten free options"
+        ],
+        "description": "Known for turning simple meals into delightful experiences with charm and care."
+    },
+    {
+        "id": 18,
+        "name": "Velvet Pizza Grill",
+        "address": "268 Horizon Avenue, Fredericton, NB",
+        "latitude": 45.96697,
+        "longitude": -66.60037,
+        "avg_price": 100,
+        "type": "Pizza",
+        "ratings": 2.6,
+        "features": [
+            "pets allowed"
+        ],
+        "description": "A practical option for those who appreciate simplicity and steady service."
+    },
+    {
+        "id": 31,
+        "name": "Velvet Japanese Garden",
+        "address": "327 Laurel Lane, Fredericton, NB",
+        "latitude": 45.98657,
+        "longitude": -66.62668,
+        "avg_price": 41,
+        "type": "Japanese",
+        "ratings": 3.5,
+        "features": [
+            "vegetarian options",
+            "pets allowed"
+        ],
+        "description": "A dependable choice for relaxed dining, offering comfort and familiarity."
+    },
+    {
+        "id": 73,
+        "name": "Harvest Indian Bistro",
+        "address": "92 Quail Hollow, Fredericton, NB",
+        "latitude": 45.97956,
+        "longitude": -66.6408,
+        "avg_price": 48,
+        "type": "Indian",
+        "ratings": 4.6,
+        "features": [
+            "vegetarian options",
+            "gluten free options",
+            "free parking",
+            "pets allowed"
+        ],
+        "description": "Perfect for those seeking a cheerful escape with consistently great food."
+    },
+    {
+        "id": 87,
+        "name": "Zen Japanese Grill",
+        "address": "590 Glenview Road, Fredericton, NB",
+        "latitude": 45.93249,
+        "longitude": -66.61427,
+        "avg_price": 57,
+        "type": "Japanese",
+        "ratings": 3.6,
+        "features": [
+            "free parking",
+            "gluten free options"
+        ],
+        "description": "Ideal for casual outings, blending simplicity with a touch of local character."
+    },
+    {
+        "id": 70,
+        "name": "Spice Japanese Lounge",
+        "address": "484 Xander Lane, Fredericton, NB",
+        "latitude": 45.97567,
+        "longitude": -66.67752,
+        "avg_price": 68,
+        "type": "Japanese",
+        "ratings": 2.8,
+        "features": [],
+        "description": "A practical option for those who appreciate simplicity and steady service."
+    },
+    {
+        "id": 44,
+        "name": "Urban Mexican Kitchen",
+        "address": "827 Thistle Circle, Fredericton, NB",
+        "latitude": 45.97506,
+        "longitude": -66.63593,
+        "avg_price": 77,
+        "type": "Mexican",
+        "ratings": 2.5,
+        "features": [
+            "free parking",
+            "vegetarian options"
+        ],
+        "description": "A dependable choice for relaxed dining, offering comfort and familiarity."
+    },
+    {
+        "id": 100,
+        "name": "Velvet Chinese House",
+        "address": "959 Orchard Boulevard, Fredericton, NB",
+        "latitude": 45.97125,
+        "longitude": -66.62337,
+        "avg_price": 53,
+        "type": "Chinese",
+        "ratings": 4.1,
+        "features": [],
+        "description": "Guests adore the inviting atmosphere and creative dishes that never disappoint."
+    },
+    {
+        "id": 93,
+        "name": "Velvet Indian Garden",
+        "address": "619 Upland Road, Fredericton, NB",
+        "latitude": 45.93317,
+        "longitude": -66.62902,
+        "avg_price": 33,
+        "type": "Indian",
+        "ratings": 1.8,
+        "features": [
+            "vegetarian options",
+            "gluten free options",
+            "free parking",
+            "pets allowed"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 52,
+        "name": "Rustic Chinese Bistro",
+        "address": "650 Ironwood Street, Fredericton, NB",
+        "latitude": 45.98119,
+        "longitude": -66.6603,
+        "avg_price": 99,
+        "type": "Chinese",
+        "ratings": 2.8,
+        "features": [
+            "pets allowed",
+            "free parking"
+        ],
+        "description": "Ideal for casual outings, blending simplicity with a touch of local character."
+    },
+    {
+        "id": 94,
+        "name": "Velvet Japanese Cafe",
+        "address": "369 Chase Street, Fredericton, NB",
+        "latitude": 45.97824,
+        "longitude": -66.61042,
+        "avg_price": 34,
+        "type": "Japanese",
+        "ratings": 1.4,
+        "features": [
+            "pets allowed"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 67,
+        "name": "Harvest Canadian Kitchen",
+        "address": "935 Horizon Avenue, Fredericton, NB",
+        "latitude": 45.98191,
+        "longitude": -66.62515,
+        "avg_price": 85,
+        "type": "Canadian",
+        "ratings": 3.9,
+        "features": [
+            "free parking"
+        ],
+        "description": "A modest yet welcoming space where guests enjoy a calm and easygoing vibe."
+    },
+    {
+        "id": 56,
+        "name": "Coastal Burgers Garden",
+        "address": "697 Glenview Road, Fredericton, NB",
+        "latitude": 45.94784,
+        "longitude": -66.67028,
+        "avg_price": 36,
+        "type": "Burgers",
+        "ratings": 1.2,
+        "features": [
+            "gluten free options",
+            "pets allowed"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 99,
+        "name": "Coastal Pizza Cafe",
+        "address": "787 Evergreen Terrace, Fredericton, NB",
+        "latitude": 45.97366,
+        "longitude": -66.61806,
+        "avg_price": 87,
+        "type": "Pizza",
+        "ratings": 2.5,
+        "features": [],
+        "description": "Ideal for casual outings, blending simplicity with a touch of local character."
+    },
+    {
+        "id": 63,
+        "name": "Urban Canadian Garden",
+        "address": "984 Foxglove Drive, Fredericton, NB",
+        "latitude": 45.99986,
+        "longitude": -66.61049,
+        "avg_price": 31,
+        "type": "Canadian",
+        "ratings": 4.5,
+        "features": [
+            "vegetarian options",
+            "gluten free options"
+        ],
+        "description": "A lively spot where every visit feels like a celebration of flavor and warmth."
+    },
+    {
+        "id": 9,
+        "name": "Velvet Indian Bistro",
+        "address": "503 Thistle Circle, Fredericton, NB",
+        "latitude": 45.95178,
+        "longitude": -66.63489,
+        "avg_price": 67,
+        "type": "Indian",
+        "ratings": 1.3,
+        "features": [
+            "pets allowed",
+            "gluten free options",
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 49,
+        "name": "Golden Pizza Bistro",
+        "address": "283 Ironwood Street, Fredericton, NB",
+        "latitude": 45.94405,
+        "longitude": -66.66769,
+        "avg_price": 91,
+        "type": "Pizza",
+        "ratings": 1.1,
+        "features": [
+            "vegetarian options",
+            "pets allowed"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 81,
+        "name": "Urban Pizza Tavern",
+        "address": "619 Foxglove Drive, Fredericton, NB",
+        "latitude": 45.99391,
+        "longitude": -66.65895,
+        "avg_price": 35,
+        "type": "Pizza",
+        "ratings": 4.7,
+        "features": [
+            "vegetarian options",
+            "pets allowed"
+        ],
+        "description": "A lively spot where every visit feels like a celebration of flavor and warmth."
+    },
+    {
+        "id": 54,
+        "name": "Urban Japanese Garden",
+        "address": "583 Zenith Street, Fredericton, NB",
+        "latitude": 45.94378,
+        "longitude": -66.66972,
+        "avg_price": 60,
+        "type": "Japanese",
+        "ratings": 2.8,
+        "features": [
+            "pets allowed",
+            "free parking",
+            "vegetarian options"
+        ],
+        "description": "Ideal for casual outings, blending simplicity with a touch of local character."
+    },
+    {
+        "id": 11,
+        "name": "Spice Japanese Bistro",
+        "address": "58 Xander Lane, Fredericton, NB",
+        "latitude": 45.98999,
+        "longitude": -66.63002,
+        "avg_price": 32,
+        "type": "Japanese",
+        "ratings": 3.4,
+        "features": [
+            "gluten free options",
+            "free parking",
+            "vegetarian options"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 7,
+        "name": "River Canadian Garden",
+        "address": "832 Thistle Circle, Fredericton, NB",
+        "latitude": 45.9885,
+        "longitude": -66.61935,
+        "avg_price": 68,
+        "type": "Canadian",
+        "ratings": 3.6,
+        "features": [
+            "pets allowed"
+        ],
+        "description": "A modest yet welcoming space where guests enjoy a calm and easygoing vibe."
+    },
+    {
+        "id": 58,
+        "name": "Velvet Burgers Tavern",
+        "address": "189 Riverside Drive, Fredericton, NB",
+        "latitude": 45.99092,
+        "longitude": -66.60995,
+        "avg_price": 100,
+        "type": "Burgers",
+        "ratings": 3.0,
+        "features": [
+            "gluten free options",
+            "pets allowed",
+            "vegetarian options"
+        ],
+        "description": "A dependable choice for relaxed dining, offering comfort and familiarity."
+    },
+    {
+        "id": 79,
+        "name": "Harvest Chinese Corner",
+        "address": "126 Juniper Trail, Fredericton, NB",
+        "latitude": 45.95416,
+        "longitude": -66.60362,
+        "avg_price": 31,
+        "type": "Chinese",
+        "ratings": 2.7,
+        "features": [
+            "vegetarian options",
+            "pets allowed"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 57,
+        "name": "Morning Pizza House",
+        "address": "282 Beaverbrook Avenue, Fredericton, NB",
+        "latitude": 45.96009,
+        "longitude": -66.61461,
+        "avg_price": 64,
+        "type": "Pizza",
+        "ratings": 3.8,
+        "features": [
+            "free parking",
+            "pets allowed"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 2,
+        "name": "Velvet Pizza Cafe",
+        "address": "644 Orchard Boulevard, Fredericton, NB",
+        "latitude": 45.94663,
+        "longitude": -66.66298,
+        "avg_price": 37,
+        "type": "Pizza",
+        "ratings": 1.6,
+        "features": [
+            "gluten free options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 21,
+        "name": "Spice Japanese Tavern",
+        "address": "483 Nighthawk Place, Fredericton, NB",
+        "latitude": 45.97626,
+        "longitude": -66.66442,
+        "avg_price": 71,
+        "type": "Japanese",
+        "ratings": 2.0,
+        "features": [
+            "gluten free options",
+            "pets allowed",
+            "vegetarian options",
+            "free parking"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 24,
+        "name": "Rustic Chinese Kitchen",
+        "address": "746 Foxglove Drive, Fredericton, NB",
+        "latitude": 45.98988,
+        "longitude": -66.64389,
+        "avg_price": 62,
+        "type": "Chinese",
+        "ratings": 3.3,
+        "features": [
+            "gluten free options",
+            "vegetarian options"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 47,
+        "name": "Velvet Japanese House",
+        "address": "620 Laurel Lane, Fredericton, NB",
+        "latitude": 45.99327,
+        "longitude": -66.66605,
+        "avg_price": 79,
+        "type": "Japanese",
+        "ratings": 2.7,
+        "features": [
+            "vegetarian options",
+            "gluten free options",
+            "free parking",
+            "pets allowed"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 14,
+        "name": "Urban Japanese Kitchen",
+        "address": "239 Glenview Road, Fredericton, NB",
+        "latitude": 45.98021,
+        "longitude": -66.60654,
+        "avg_price": 66,
+        "type": "Japanese",
+        "ratings": 1.4,
+        "features": [
+            "gluten free options",
+            "free parking"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 33,
+        "name": "Urban Mexican Grill",
+        "address": "133 Evergreen Terrace, Fredericton, NB",
+        "latitude": 45.97394,
+        "longitude": -66.67471,
+        "avg_price": 56,
+        "type": "Mexican",
+        "ratings": 3.3,
+        "features": [],
+        "description": "Ideal for casual outings, blending simplicity with a touch of local character."
+    },
+    {
+        "id": 75,
+        "name": "Velvet Burgers Cafe",
+        "address": "228 Glenview Road, Fredericton, NB",
+        "latitude": 45.98476,
+        "longitude": -66.66979,
+        "avg_price": 82,
+        "type": "Burgers",
+        "ratings": 4.8,
+        "features": [
+            "gluten free options",
+            "vegetarian options",
+            "pets allowed"
+        ],
+        "description": "A favorite among locals for its vibrant energy and memorable dining moments."
+    },
+    {
+        "id": 90,
+        "name": "Coastal Mexican Tavern",
+        "address": "62 Kingfisher Way, Fredericton, NB",
+        "latitude": 45.9381,
+        "longitude": -66.60507,
+        "avg_price": 53,
+        "type": "Mexican",
+        "ratings": 1.8,
+        "features": [
+            "gluten free options",
+            "free parking",
+            "pets allowed"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 59,
+        "name": "Urban Mexican Grill",
+        "address": "392 Orchard Boulevard, Fredericton, NB",
+        "latitude": 45.93322,
+        "longitude": -66.6798,
+        "avg_price": 45,
+        "type": "Mexican",
+        "ratings": 1.4,
+        "features": [
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 76,
+        "name": "Velvet Mexican Garden",
+        "address": "864 Sunset Street, Fredericton, NB",
+        "latitude": 45.95355,
+        "longitude": -66.64045,
+        "avg_price": 93,
+        "type": "Mexican",
+        "ratings": 2.0,
+        "features": [
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 53,
+        "name": "Urban Mexican Cafe",
+        "address": "876 Maple Ridge Road, Fredericton, NB",
+        "latitude": 45.93972,
+        "longitude": -66.66718,
+        "avg_price": 68,
+        "type": "Mexican",
+        "ratings": 2.5,
+        "features": [
+            "pets allowed",
+            "gluten free options",
+            "vegetarian options",
+            "free parking"
+        ],
+        "description": "A modest yet welcoming space where guests enjoy a calm and easygoing vibe."
+    },
+    {
+        "id": 82,
+        "name": "Coastal Burgers House",
+        "address": "95 Laurel Lane, Fredericton, NB",
+        "latitude": 45.95695,
+        "longitude": -66.61117,
+        "avg_price": 44,
+        "type": "Burgers",
+        "ratings": 1.2,
+        "features": [
+            "gluten free options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 97,
+        "name": "Rustic Pizza Grill",
+        "address": "3 Nighthawk Place, Fredericton, NB",
+        "latitude": 45.97042,
+        "longitude": -66.616,
+        "avg_price": 74,
+        "type": "Pizza",
+        "ratings": 4.9,
+        "features": [
+            "free parking",
+            "vegetarian options",
+            "pets allowed",
+            "gluten free options"
+        ],
+        "description": "Known for turning simple meals into delightful experiences with charm and care."
+    },
+    {
+        "id": 13,
+        "name": "River Mexican Corner",
+        "address": "85 Dewberry Court, Fredericton, NB",
+        "latitude": 45.95672,
+        "longitude": -66.65311,
+        "avg_price": 80,
+        "type": "Mexican",
+        "ratings": 2.1,
+        "features": [
+            "vegetarian options",
+            "gluten free options",
+            "pets allowed"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 48,
+        "name": "The Burgers Garden",
+        "address": "769 Evergreen Terrace, Fredericton, NB",
+        "latitude": 45.97162,
+        "longitude": -66.61078,
+        "avg_price": 61,
+        "type": "Burgers",
+        "ratings": 2.4,
+        "features": [
+            "gluten free options",
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 23,
+        "name": "Golden Chinese Bistro",
+        "address": "11 Foxglove Drive, Fredericton, NB",
+        "latitude": 45.93336,
+        "longitude": -66.62321,
+        "avg_price": 74,
+        "type": "Chinese",
+        "ratings": 2.1,
+        "features": [
+            "gluten free options",
+            "free parking"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 98,
+        "name": "Zen Pizza Corner",
+        "address": "932 Quail Hollow, Fredericton, NB",
+        "latitude": 45.94051,
+        "longitude": -66.66253,
+        "avg_price": 37,
+        "type": "Pizza",
+        "ratings": 4.6,
+        "features": [
+            "vegetarian options",
+            "pets allowed",
+            "free parking"
+        ],
+        "description": "Perfect for those seeking a cheerful escape with consistently great food."
+    },
+    {
+        "id": 60,
+        "name": "Rustic Canadian Garden",
+        "address": "330 Laurel Lane, Fredericton, NB",
+        "latitude": 45.96048,
+        "longitude": -66.63457,
+        "avg_price": 56,
+        "type": "Canadian",
+        "ratings": 2.0,
+        "features": [
+            "vegetarian options",
+            "pets allowed",
+            "gluten free options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 86,
+        "name": "Zen Chinese Cafe",
+        "address": "518 Horizon Avenue, Fredericton, NB",
+        "latitude": 45.9654,
+        "longitude": -66.64551,
+        "avg_price": 45,
+        "type": "Chinese",
+        "ratings": 1.8,
+        "features": [
+            "vegetarian options"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 92,
+        "name": "The Mexican Tavern",
+        "address": "372 Yellowstone Drive, Fredericton, NB",
+        "latitude": 45.9498,
+        "longitude": -66.60856,
+        "avg_price": 78,
+        "type": "Mexican",
+        "ratings": 2.2,
+        "features": [
+            "free parking",
+            "vegetarian options",
+            "pets allowed"
+        ],
+        "description": "While opinions vary, some visitors appreciate its simplicity and quiet charm."
+    },
+    {
+        "id": 3,
+        "name": "Spice Chinese Corner",
+        "address": "187 Nighthawk Place, Fredericton, NB",
+        "latitude": 45.98216,
+        "longitude": -66.61049,
+        "avg_price": 31,
+        "type": "Chinese",
+        "ratings": 3.0,
+        "features": [
+            "pets allowed",
+            "vegetarian options"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 25,
+        "name": "Coastal Indian Grill",
+        "address": "463 Juniper Trail, Fredericton, NB",
+        "latitude": 45.98004,
+        "longitude": -66.67926,
+        "avg_price": 98,
+        "type": "Indian",
+        "ratings": 4.0,
+        "features": [
+            "free parking",
+            "pets allowed"
+        ],
+        "description": "Known for turning simple meals into delightful experiences with charm and care."
+    },
+    {
+        "id": 41,
+        "name": "River Pizza Grill",
+        "address": "623 Nighthawk Place, Fredericton, NB",
+        "latitude": 45.97991,
+        "longitude": -66.64187,
+        "avg_price": 94,
+        "type": "Pizza",
+        "ratings": 4.9,
+        "features": [
+            "pets allowed",
+            "free parking",
+            "vegetarian options"
+        ],
+        "description": "Known for turning simple meals into delightful experiences with charm and care."
+    },
+    {
+        "id": 17,
+        "name": "Zen Indian Table",
+        "address": "974 Horizon Avenue, Fredericton, NB",
+        "latitude": 45.96531,
+        "longitude": -66.62523,
+        "avg_price": 49,
+        "type": "Indian",
+        "ratings": 2.5,
+        "features": [
+            "vegetarian options",
+            "pets allowed"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 15,
+        "name": "Spice Pizza Lounge",
+        "address": "389 Quail Hollow, Fredericton, NB",
+        "latitude": 45.98062,
+        "longitude": -66.60208,
+        "avg_price": 97,
+        "type": "Pizza",
+        "ratings": 3.0,
+        "features": [
+            "pets allowed",
+            "vegetarian options"
+        ],
+        "description": "Straightforward dining that focuses on consistency and convenience."
+    },
+    {
+        "id": 74,
+        "name": "Rustic Pizza Bistro",
+        "address": "156 Quail Hollow, Fredericton, NB",
+        "latitude": 45.94431,
+        "longitude": -66.61704,
+        "avg_price": 36,
+        "type": "Pizza",
+        "ratings": 4.0,
+        "features": [
+            "free parking",
+            "pets allowed",
+            "vegetarian options",
+            "gluten free options"
+        ],
+        "description": "Known for turning simple meals into delightful experiences with charm and care."
+    }
+]
