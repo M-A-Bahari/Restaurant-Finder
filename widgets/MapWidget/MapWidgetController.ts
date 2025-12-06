@@ -1,7 +1,4 @@
-import { 
-  setSKEventListener, 
-  SKEvent, 
-  SKMouseEvent } from "../../simplekit/src/imperative-mode";
+import { SKEvent, SKMouseEvent } from "../../simplekit/src/imperative-mode";
 import { MapWidget } from ".";
 import { MapWidgetModel } from "./MapWidgetModel";
 
@@ -9,6 +6,7 @@ export class MapWidgetController {
   private _map: MapWidget;
   private _model: MapWidgetModel;
   private _currentHoverPointData = {};
+  private _lastHoveredPoint: any = null;
 
   public get currentHoverPointData() {
     return this._currentHoverPointData;
@@ -27,52 +25,74 @@ export class MapWidgetController {
     this._model = model;
   }
 
-  handleMouseEvent(me: SKMouseEvent) {      
-      this._model.points.forEach((p) => {
+  handleMouseEvent(me: SKMouseEvent) {
+      let foundHover = false;
+      let hoveredPoint: any = null;
+
+      // Find the hovered point
+      for (const p of this._model.points) {
             const { x, y } = this._model.latLonToCanvas(
                 p.latitude,
                 p.longitude,
                 this._map.width,
                 this._map.height
             );
-            // considered a hit if less than 5 pixels away
+
+            // Mouse coordinates are in absolute screen space
+            // Adjust them to be relative to the map widget
+            const mouseX = me.x - this._map.absoluteX;
+            const mouseY = me.y - this._map.absoluteY;
+
+            // Marker position is at this._map.x + x, this._map.y + y
+            // considered a hit if less than 10 pixels away
             if (
               this.calculateDistance(
                 this._map.x + x,
                 this._map.y + y,
-                me.x,
-                me.y
-              ) <= 5
+                mouseX,
+                mouseY
+              ) <= 10
             ) {
-              if (me.type === "mousemove")
-              {
-                if (
-                  this._map.sendEvent({
-                    source: this,
-                    timeStamp: me.timeStamp,
-                    type: "point-hover",
-                    data: p
-                  } as SKEvent)
-                )
-                  return true;
-              }
-              else if (me.type === "click")
-              {
-                if (
-                  this._map.sendEvent({
-                    source: this,
-                    timeStamp: me.timeStamp,
-                    type: "point-click",
-                    data: p
-                  } as SKEvent)
-                )
-                  return true;
-              }
+              foundHover = true;
+              hoveredPoint = p;
+              break; // Stop at first match
             }
-            else{
-              p.dataDisplay = "";
+      }
+
+      if (me.type === "mousemove") {
+        if (foundHover && hoveredPoint) {
+          // Update hover state
+          if (this._lastHoveredPoint !== hoveredPoint) {
+            // Clear previous hover
+            if (this._lastHoveredPoint) {
+              this._lastHoveredPoint.isHovered = false;
             }
-      });
+            // Set new hover
+            hoveredPoint.isHovered = true;
+            this._lastHoveredPoint = hoveredPoint;
+
+            // Send hover event
+            this._map.sendEvent({
+              source: this,
+              timeStamp: me.timeStamp,
+              type: "point-hover",
+              data: hoveredPoint
+            } as SKEvent);
+          }
+        } else if (!foundHover && this._lastHoveredPoint) {
+          // Clear hover when moving away
+          this._lastHoveredPoint.isHovered = false;
+          this._lastHoveredPoint = null;
+        }
+      } else if (me.type === "click" && foundHover && hoveredPoint) {
+        // Send click event
+        this._map.sendEvent({
+          source: this,
+          timeStamp: me.timeStamp,
+          type: "point-click",
+          data: hoveredPoint
+        } as SKEvent);
+      }
   }
 
   public calculateDistance(x1: number, y1: number, x2: number, y2: number): number {
@@ -80,8 +100,8 @@ export class MapWidgetController {
     const dy = y2 - y1;
     return Math.sqrt(dx * dx + dy * dy);
   }
-  
-  public runHandlers(e:SKEvent) { 
+
+  public runHandlers(e:SKEvent) {
     this.eventHandlers.forEach((func)=>{
         func(e, this._map, this._model);
     });

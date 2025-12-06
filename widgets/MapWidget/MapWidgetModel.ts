@@ -24,6 +24,16 @@ export class MapWidgetModel {
   private _setMinMax(): void {
     //determine the min and max values for scaling
     //the map while drawing, so that everything is visible
+
+    // Handle empty array case
+    if (this._points.length === 0) {
+      this._minLon = 0;
+      this._minLat = 0;
+      this._maxLon = 1;
+      this._maxLat = 1;
+      return;
+    }
+
     this._minLon =
       this._points.reduce((prev, curr) =>
         prev.longitude < curr.longitude ? prev : curr
@@ -49,11 +59,17 @@ export class MapWidgetModel {
     canvasWidth: number = 400,
     canvasHeight: number = 400
   ) {
-    const x =
-      ((lon - this._minLon) / (this._maxLon - this._minLon)) * canvasWidth;
-    const y =
-      canvasHeight -
-      ((lat - this._minLat) / (this._maxLat - this._minLat)) * canvasHeight;
-    return { x,y };
+    // Avoid division by zero
+    const lonRange = this._maxLon - this._minLon;
+    const latRange = this._maxLat - this._minLat;
+
+    const x = lonRange !== 0
+      ? ((lon - this._minLon) / lonRange) * canvasWidth
+      : canvasWidth / 2;
+    const y = latRange !== 0
+      ? canvasHeight - ((lat - this._minLat) / latRange) * canvasHeight
+      : canvasHeight / 2;
+
+    return { x, y };
   }
 }

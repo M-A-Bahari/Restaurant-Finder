@@ -4,10 +4,7 @@ import { MapWidgetController } from "./MapWidgetController";
 import { MapWidgetModel } from "./MapWidgetModel";
 import { MapWidgetView } from "./MapWidgetView";
 
-/** 
- * A Map Widget for SimpleKit that displays an interactive map
- * 
-*/ 
+// A Map Widget for SimpleKit that displays an interactive map
 export class MapWidget extends SKElement {
   private _model: MapWidgetModel;
   private _view: MapWidgetView;
@@ -16,10 +13,10 @@ export class MapWidget extends SKElement {
   constructor(
     points: MapPoint[],
     {
-      x = 0,
-      y = 0,
-      width = 400,
-      height = 400,
+      x = 320,
+      y = 70,
+      width = 1090,
+      height = 500,
       fill = "lightgreen",
       border = "black",
     } = {}
@@ -49,7 +46,6 @@ export class MapWidget extends SKElement {
   // Handle mouse events.
   handleMouseEvent(me: SKMouseEvent): boolean {
     this._controller.handleMouseEvent(me);
-    //console.log(`MapWidget received mouse event: ${me.type} at (${me.x}, ${me.y})`);
     return false;
   }
 
@@ -65,6 +61,16 @@ export class MapWidget extends SKElement {
   > {
     return this._view.drawMapFeatureFunctions;
   }
+
+  // Get absolute X position of the widget in screen coordinates
+  public get absoluteX(): number {
+    return 330; // 320 (mapContainer.x) + 10 (mapWidget.x)
+  }
+
+  // Get absolute Y position of the widget in screen coordinates
+  public get absoluteY(): number {
+    return 80; // 70 (mapContainer.y) + 10 (mapWidget.y)
+  }
 }
 
 // Define the property interface based on JSON structure
@@ -73,4 +79,5 @@ export interface MapPoint {
     longitude: number;
     data: {};
     dataDisplay: string;
+    isHovered?: boolean;
 }

@@ -27,7 +27,8 @@ export class MapWidgetView {
     lat: number,
     lon: number,
     displayData: string,
-    data: {}
+    _data: {},
+    isHovered: boolean = false
   ) {
     const { x, y } = this._model.latLonToCanvas(
       lat,
@@ -43,9 +44,43 @@ export class MapWidgetView {
     gc.fillStyle = "red";
     gc.fill();
     gc.closePath();
-    gc.fillStyle = "black";
 
-    gc.fillText(displayData, x - 10, y - 10);
+    // Only show tooltip when hovered
+    if (isHovered && displayData) {
+      gc.fillStyle = "black";
+      gc.font = "12px Arial";
+
+      // Measure text to create background
+      const textMetrics = gc.measureText(displayData);
+      const textWidth = textMetrics.width;
+      const textHeight = 14;
+      const padding = 4;
+
+      // Draw tooltip background
+      gc.fillStyle = "rgba(255, 255, 255, 0.9)";
+      gc.fillRect(
+        x - textWidth / 2 - padding,
+        y - 20 - textHeight - padding,
+        textWidth + padding * 2,
+        textHeight + padding * 2
+      );
+
+      // Draw tooltip border
+      gc.strokeStyle = "black";
+      gc.lineWidth = 1;
+      gc.strokeRect(
+        x - textWidth / 2 - padding,
+        y - 20 - textHeight - padding,
+        textWidth + padding * 2,
+        textHeight + padding * 2
+      );
+
+      // Draw text
+      gc.fillStyle = "black";
+      gc.textAlign = "center";
+      gc.textBaseline = "middle";
+      gc.fillText(displayData, x, y - 20 - textHeight / 2);
+    }
 
     gc.restore();
   }
@@ -77,7 +112,8 @@ export class MapWidgetView {
         latitude,
         longitude,
         property.dataDisplay,
-        property.data
+        property.data,
+        property.isHovered || false
       );
     });
 
