@@ -92,7 +92,7 @@ It is shared publicly **for learning and portfolio purposes only**.
 
 ## License
 
-This repository contains **original work authored by Ataullah Bahari** and is licensed under the **MIT License**.
+This repository contains **original work authored by Md Ataullah Bahari** and is licensed under the **MIT License**.
 
 Third-party libraries (such as SimpleKit) remain under their respective licenses and are not covered by this license.
 
@@ -113,6 +113,6 @@ See the `LICENSE` file for details.
 
 ## Author
 
-**Ataullah Bahari**  
+**Md Ataullah Bahari**  
 Computer Science Student  
-Portfolio Project
+Academic & Portfolio Project
